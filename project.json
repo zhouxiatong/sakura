@@ -1,0 +1,92 @@
+{
+	"approved" : true,
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"Text_Background_Options" : 
+			{
+				"order" : 10,
+				"text" : "<br/><h4>壁纸选项</h4>",
+				"type" : "text"
+			},
+			"wallpapermode" : 
+			{
+				"options" : 
+				[
+					{
+						"label" : "图片",
+						"value" : 1
+					}
+				],
+				"order" : 11,
+				"text" : "<br />壁纸模式<br /><br />",
+				"type" : "combo",
+				"value" : 1
+			},
+			"DefaultWallpaper" : 
+			{
+				"options" : 
+				[
+					{
+						"label" : "Cat_1",
+						"value" : "Cat_1"
+					},
+					{
+						"label" : "Cat_2",
+						"value" : "Cat_2"
+					},
+					{
+						"label" : "Cat_3",
+						"value" : "Cat_3"
+					}
+				],
+				"order" : 11.5,
+				"text" : "默认壁纸<br />Default Wallpaper<br />",
+				"type" : "combo",
+				"value" : "Cat_1"
+			},
+			"image" : 
+			{
+				"order" : 12,
+				"text" : "<br />自定义壁纸<br /><br />",
+				"type" : "file"
+			},
+			"imagedisplaystlye" : 
+			{
+				"condition" : "wallpapermode.value == 1",
+				"options" : 
+				[
+					{
+						"label" : "填充-Fill",
+						"value" : 1
+					},
+					{
+						"label" : "拉伸-Stretching",
+						"value" : 2
+					},
+					{
+						"label" : "适应-Adapt",
+						"value" : 3
+					},
+					{
+						"label" : "平铺-Tile",
+						"value" : 4
+					},
+					{
+						"label" : "居中-Center",
+						"value" : 5
+					}
+				],
+				"order" : 22,
+				"text" : "<br />壁纸显示风格<br />Wallpaper Display Stlye<br />",
+				"type" : "combo",
+				"value" : 1
+			}
+		}
+	},
+	"title" : "HappyBirthday",
+	"type" : "web",
+	"visibility" : "null"
+}
